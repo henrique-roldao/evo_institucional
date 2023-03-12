@@ -1,128 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>EVO Pharma Institucional</title>
+
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap"
-        rel="stylesheet">
-    <!-- Arquivo CSS do Bootstrap -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>EVO</title>
-</head>
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/assets/tailwind.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER:START -->
+    <header class="bg-white">
+      <nav
+        class="mx-auto flex container items-center justify-start p-8 lg:p-12"
+        aria-label="Global"
+      >
+        <img
+          class="w-[202px] h-[51px]"
+          src="./assets/images/logo.png"
+          alt="Logo marca da empresa"
+        />
+      </nav>
+    </header>
+    <!-- HEADER: END -->
 
-<body>
+    <!-- HERO_BANNER: START -->
+    <section
+      class="relative bg-[url(./images/banner.png)] bg-cover bg-center bg-no-repeat w-full h-[250px] md:h-[400px] lg:h-[600px]"
+      aria-label="banner"
+    ></section>
+    <!-- HERO_BANNER: END -->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 p-5">
-                <img src="./assets/imgs/logo.png" alt="Logo marca da empresa">
-            </div>
+    <!-- SECTION_ABOUT_US: START -->
+    <section class="w-full h-auto relative bg-white">
+      <div
+        class="flex flex-col md:flex-row gap-6 md:gap-24 mx-auto container justify-start py-10 md:py-20 px-6 lg:px-12"
+      >
+        <div class="flex flex-col max-w-lg">
+          <h2
+            class="font-display uppercase text-purplegray font-light text-6xl mb-8 md:mb-36 order-1"
+          >
+            Sobre nós
+          </h2>
+          <h3
+            class="font-display uppercase text-purplegrayLight font-light text-4xl max-w-[340px] order-2"
+          >
+            Está na hora<br />de pensar<br />na beleza<br />como ela é
+          </h3>
+          <img
+            src="assets/images/evo-wide.png"
+            alt="EVO PHARMA logo wide version"
+            class="hidden md:block"
+          />
         </div>
-    </div>
+        <div
+          class="flex flex-col flex-1 text-evogray text-[1.25rem] leading-[130%] font-light order-3"
+        >
+          <p class="uppercase mb-10">
+            Nascemos com o propósito de reimaginar a abordagem da medicina
+            estética, onde o paciente busca os melhores resultados para
+            potencializar sua beleza natural e individualizada, sem exageros.
+            para isso, trazemos um portfólio completo e inovador, com o objetivo
+            de oferecer conveniênciae agilidade. Somos one stop shop.
+          </p>
 
-    <div class="banner">
-        <img src="./assets/imgs/banner.png" alt="Banner">
-    </div>
-
-    <div class="container mt-4">
-        <div class="row pt-4">
-            <div class="col-5">
-                <h1 class="title">SOBRE NÓS</h1>
-            </div>
-            <div class="col-7 paragraph-text">
-                <p>NASCEMOS COM O PROPÓSITO DE REIMAGINAR A ABORDAGEM DA MEDICINA ESTÉTICA, ONDE O PACIENTE BUSCA OS
-                    MELHORES RESULTADOS PARA POTENCIALIZAR SUA BELEZA NATURAL E INDIVIDUALIZADA, SEM EXAGEROS. PARA
-                    ISSO, TRAZEMOS UM PORTFÓLIO COMPLETO E INOVADOR, COM O OBJETIVO DE OFERECER CONVENIÊNCIA E
-                    AGILIDADE. SOMOS ONE STOP SHOP.</p>
-            </div>
+          <h3 class="uppercase font-medium mb-2">As raízes</h3>
+          <p class="mb-10">
+            Nossos fundadores e membros possuem profunda experiência no mercado
+            de estética. Somos associados ao grupo alliança que já conta com
+            diversas contribuições no mercado da beleza.
+          </p>
+          <h3 class="uppercase font-medium mb-2">A evolução</h3>
+          <p class="mb-10">
+            Em um mercado competitivo e acirrado, a inovação e desenvolvimento
+            constante são chave para a diferenciação. Esse é nosso mantra, que
+            dá nome a nossa companhia: evo pharma. Nosso combustível é a busca
+            da evolução constante na nossa forma de agir e pensar, concepção de
+            produtos inovadores e uso de tecnologias disruptivas.
+          </p>
+          <h3 class="uppercase font-medium mb-2">Nosso objetivo</h3>
+          <p>
+            Tangibilizar as oportunidades do mercado em uma nova abordagem
+            através de plataformas digitais que darão oportunidade a comunidade
+            dos profissionais de saúde a ter acesso a educação continuada
+            consistente e a novos produtos que proporcionam segurança e
+            qualidade aos pacientes.
+          </p>
         </div>
-        <div class="row mt-4">
-            <div class="col-5">
+      </div>
+    </section>
+    <!-- SECTION_ABOUT_US: END -->
 
-            </div>
-            <div class="col-7 paragraph-text">
-                <spam class="paragraph-title">AS RAÍZES</spam>
-                <p>Nossos fundadores e membros possuem profunda experiência no mercado de estética. Somos associados ao
-                    grupo Alliança que já conta com diversas contribuições no mercado da beleza.</p>
-            </div>
+    <!-- SECTION_WHY_EVO_PHARMA: START -->
+    <section
+      class="w-full h-auto relative bg-[#FAFF00] py-10 md:py-20 px-6 lg:px-12"
+    >
+      <div class="container mx-auto">
+        <div
+          class="w-full font-thin font-display text-3xl md:text-6xl uppercase mb-8 md:mb-20 text-center text-purplegray"
+        >
+          Porque EVO Pharma
         </div>
+        <div
+          class="flex flex-col gap-12 md:gap-0 md:flex-row items-center md:justify-around"
+        >
+          <!-- CONTENT COLUMN: START -->
+          <div
+            class="flex flex-col gap-5 items-center max-w-[280px] text-purplegray"
+          >
+            <img
+              src="./assets/imgs/educacao.svg"
+              alt="Educação"
+              class="w-10 h-10"
+            />
+            <h4 class="font-sans font-bold text-2xl text-center uppercase">
+              Educação
+            </h4>
+            <p class="font-sans font-light text-xl leading-[130%] text-center">
+              Técnicas e informações científicas sobre todas as tendencias e
+              inovações do universo da estética.
+            </p>
+          </div>
+          <!-- CONTENT COLUMN: END -->
 
-        <div class="row mt-4">
-            <div class="col-5">
+          <!-- CONTENT COLUMN: START -->
+          <div
+            class="flex flex-col gap-5 items-center max-w-[280px] text-purplegray"
+          >
+            <img
+              src="./assets/imgs/conveniencia.svg"
+              alt="Educação"
+              class="w-10 h-10"
+            />
+            <h4 class="font-sans font-bold text-2xl text-center uppercase">
+              Conveniência
+            </h4>
+            <p class="font-sans font-light text-xl leading-[130%] text-center">
+              Um portfólio completo em uma plataforma multi-canal para você
+              comprar onde e quando quiser.
+            </p>
+          </div>
+          <!-- CONTENT COLUMN: END -->
 
-            </div>
-            <div class="col-7 paragraph-text">
-                <spam class="paragraph-title">A EVOLUÇÃO</spam>
-                <p>Em um mercado competitivo e acirrado, a inovação e desenvolvimento constante são chave para a
-                    diferenciação. Esse é nosso mantra, que dá nome a nossa companhia: EVO Pharma. Nosso combustível é a
-                    busca da evolução constante na nossa forma de agir e pensar, concepção de produtos inovadores e uso
-                    de tecnologias disruptivas.</p>
-            </div>
+          <!-- CONTENT COLUMN: START -->
+          <div
+            class="flex flex-col gap-5 items-center max-w-[280px] text-purplegray"
+          >
+            <img
+              src="./assets/imgs/suporte.svg"
+              alt="Educação"
+              class="w-10 h-10"
+            />
+            <h4 class="font-sans font-bold text-2xl text-center uppercase">
+              Suporte
+            </h4>
+            <p class="font-sans font-light text-xl leading-[130%] text-center">
+              Segurança e agilidade<br />assistida com suporte técnico
+              científico e vendas especializado.
+            </p>
+          </div>
+          <!-- CONTENT COLUMN: END -->
         </div>
-    </div>
+      </div>
+    </section>
+    <!-- SECTION_WHY_EVO_PHARMA: END -->
 
-    <div class="container-fluid">
-        <div class="row mt-4">
-            <div class="col-5">
-                <img src="./assets/imgs/evo.png" alt="">
-            </div>
-            <div class="col-7 paragraph-text">
-                <spam class="paragraph-title">NOSSO OBJETIVO</spam>
-                <p>Tangibilizar as oportunidades do mercado em uma nova abordagem através de plataformas digitais que
-                    darão oportunidade a comunidade dos profissionais de saúde a ter acesso a educação continuada
-                    consistente e a novos produtos que proporcionam segurança e qualidade aos pacientes.</p>
-            </div>
+    <!-- SECTION_PORTFOLIO: START -->
+    <section
+      class="w-full h-auto relative bg-white py-10 md:py-20 px-6 lg:px-12"
+    >
+      <div class="container mx-auto">
+        <div
+          class="w-full font-thin font-display text-3xl md:text-6xl uppercase mb-8 md:mb-20 text-center text-purplegray"
+        >
+          Portifólio de produtos
         </div>
-    </div>
-
-    <div class="container-fluid yellow-background">
-        <div class="container pt-5">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <h1 class="title">PORQUE EVO PHARMA</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-4">
-                    <img src="./assets/imgs/educacao.svg" alt="Educação">
-                    <h2 class="about-title">EDUCAÇÃO</h2>
-                    <spam class="about-paragraph">Técnicas e informações científicas sobre todas as tendencias e inovações 
-                        do universo da estética.
-                    </spam>
-                </div>
-
-                <div class="col-4">
-                    <img src="./assets/imgs/conveniencia.svg" alt="CONVENIÊNCIA">
-                    <h2 class="about-title">CONVENIÊNCIA</h2>
-                    <spam class="about-paragraph">Técnicas e informações científicas sobre todas as tendencias e inovações 
-                        do universo da estética.
-                    </spam>
-                </div>
-
-                <div class="col-4">
-                    <img src="./assets/imgs/suporte.svg" alt="SUPORTE">
-                    <h2 class="about-title">SUPORTE</h2>
-                    <spam class="about-paragraph">Técnicas e informações científicas sobre todas as tendencias e inovações 
-                        do universo da estética.
-                    </spam>
-                </div>
-            </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-[1024px] gap-16"
+        >
+          <!-- GRID ITEM: START -->
+          <div class="flex flex-col max-w-[480px] h-auto">
+            <img
+              class="w-full"
+              src="./assets/images/evo_img1.jpg"
+              alt="EVOPDRN"
+            />
+            <h3
+              class="font-sans text-2xl text-center uppercase mt-8 text-purplegray"
+            >
+              EVOP<span class="font-bold">DRN</span>
+            </h3>
+          </div>
+          <!-- GRID ITEM: END -->
+          <!-- GRID ITEM: START -->
+          <div class="flex flex-col max-w-[480px] h-auto">
+            <img
+              class="w-full"
+              src="./assets/images/evo_img2.jpg"
+              alt="EVOPDRN"
+            />
+            <h3
+              class="font-sans text-2xl text-center uppercase mt-8 text-purplegray"
+            >
+              EVOP<span class="font-bold">CANNULA</span>
+            </h3>
+          </div>
+          <!-- GRID ITEM: END -->
+          <!-- GRID ITEM: START -->
+          <div class="flex flex-col max-w-[480px] h-auto">
+            <img
+              class="w-full"
+              src="./assets/images/evo_img3.jpg"
+              alt="EVOPDRN"
+            />
+            <h3
+              class="font-sans text-2xl text-center uppercase mt-8 text-purplegray"
+            >
+              EVOP<span class="font-bold">PRP</span>
+            </h3>
+          </div>
+          <!-- GRID ITEM: END -->
+          <!-- GRID ITEM: START -->
+          <div class="flex flex-col max-w-[480px] h-auto">
+            <img
+              class="w-full"
+              src="./assets/images/evo_img4.jpg"
+              alt="EVOPDRN"
+            />
+            <h3
+              class="font-sans text-2xl text-center uppercase mt-8 text-purplegray"
+            >
+              EVOP<span class="font-bold"
+                >CUBE<sup class="font-features sups">3</sup></span
+              >
+            </h3>
+          </div>
+          <!-- GRID ITEM: END -->
         </div>
-    </div>
+      </div>
+    </section>
+    <!-- SECTION_PORTFOLIO: END -->
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- Arquivo JavaScript do Bootstrap -->
-    <script src="./assets/js/bootstrap.min.js"></script>
-</body>
-
+    <!-- FOOTER: START -->
+    <footer
+      class="w-full h-auto relative bg-[#EBEBEB] py-11 px-8 lg:px-12 font-sans"
+    >
+      <div class="container mx-auto">
+        <div
+          class="flex flex-col md:flex-row text-purplegray md:gap-8 justify-center mb-4"
+        >
+          <h4 class="text-xl font-medium text-center md:text-left">
+            Central: <a href="tel:+553530500200">+55 35 3050-0200</a>
+          </h4>
+          <h4 class="text-xl font-medium text-center md:text-left">
+            <a href="mailto:contato@evopharma.com" class="underline"
+              >contato@evopharma.com</a
+            >
+          </h4>
+        </div>
+        <div class="flex flex-col text-center">
+          <p class="text-base">EVOPHARMA LTDA CNPJ:42.582.138/0001-96</p>
+          <p class="text-base">
+            Rua Sebastião Monteiro Ferraz, 341 Polo Industrial Guaxupé - MG
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER: END -->
+  </body>
 </html>
